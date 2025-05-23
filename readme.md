@@ -230,6 +230,12 @@ if (document.readyState === 'loading') {
 *install custom-ui-style extension, and create path files in you settings.json >*
 
 ```json
+ // custom-ui-style settings
+  "window.titleBarStyle": "native",
+  "custom-ui-style.electron": {
+    "titleBarStyle": "hiddenInset",
+    "frame": false,
+  },
 "custom-ui-style.external.imports": [
     "file:///Users/{youUser}/custom-ui-vscode.css",
     "file:///Users/{youUser}/custom-ui.js",
