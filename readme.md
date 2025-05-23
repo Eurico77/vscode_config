@@ -234,5 +234,4 @@ if (document.readyState === 'loading') {
     "file:///Users/{youUser}/custom-ui-vscode.css",
     "file:///Users/{youUser}/custom-ui.js",
   ],
-}
 ```
