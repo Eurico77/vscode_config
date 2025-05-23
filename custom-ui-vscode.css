@@ -3,6 +3,11 @@
   --titlebar-height: 37px;
 }
 
+.monaco-list > .monaco-scrollable-element {
+  overflow: unset !important;
+  padding: 12px 0px 0px 12px;
+}
+
 /* Barra de atividades */
 .monaco-workbench .label-name {
   font-size: 14px !important;
