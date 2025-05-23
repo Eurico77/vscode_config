@@ -224,7 +224,8 @@ if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', setupObserver);
 } else {
   setupObserver();
-}```
+}
+```
 
 *install custom-ui-style extension, and create path files in you settings.json >*
 
